@@ -1,7 +1,9 @@
-import { MisNotas } from "./componentes/MisNotas"
-
-export function App(){
-    return <MisNotas />
+function App() {
+  return (
+    <div className="App">
+      <h1>Mis Notas</h1>
+    </div>
+  );
 }
 
 export default App;
