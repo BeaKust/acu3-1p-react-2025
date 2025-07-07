@@ -1,9 +1,5 @@
-function App() {
-  return (
-    <div className="App">
-      <h1>Mis Notas</h1>
-    </div>
-  );
-}
+import { MisNotas } from "./components/Misnotas"
 
-export default App;
+export function App(){
+    return <MisNotas />
+}
