@@ -21,7 +21,7 @@ export function MisNotas() {
             setMensaje("El campo descripción es obligatorio");
             setTimeout(() => {
                 setMensaje('');
-            }, 2000);
+            }, 4000);
 
         } else {
             const nota = {
